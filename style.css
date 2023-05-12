@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    list-style-type: none;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+main {
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* General */
+
+.section {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.section__title {
+    font-size: 20px;
+}
+
+.section__subtitle {
+    font-size: 20px;
+}
+
+.item__title {
+    font-size: 15px;
+}
+
+.item__subtitle {
+    /* font-size: 16px; */
+    color: #3d3d3d;
+}
+
+.contacts__list,
+.skills__list,
+.languages__list,
+.experience__list,
+.education__list {
+    padding-left: 10px;
+}
+
+/* Main info */
+
+.main-info {
+    position: relative;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.main-info::after{
+    position: absolute;
+    right: 70% - 50%;
+    bottom: -5px;
+    content: "";
+    display: block;
+    width: 70%;
+    height: 1px;
+    background-color: rgba(0, 125, 125, .2);
+}
+
+.profile-image {
+    min-height: 170px;
+    min-width: 130px;
+    height: auto;
+    background-image: url("assets/profile.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-info__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section__title_main-info {
+    font-size: 28px;
+    letter-spacing: .1rem;
+}
+
+.section__subtitle_main-info {
+    color: #3d3d3d;
+}
+
+/* EDUCATION */ 
+
+.experience__list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
