@@ -138,4 +138,11 @@ main {
     gap: 10px;
 }
 
+/* Zgoda */
+
+.access p{
+    margin-top: 20px;
+    text-align: center;
+    color: #3d3d3d;
+}
 
