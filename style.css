@@ -4,7 +4,9 @@
     box-sizing: border-box;
     font-size: 15px;
     font-family: 'Montserrat', sans-serif;
-    list-style-type: none;
+    list-style-type: square;
+    color: black;
+    text-decoration: none;
 }
 
 .container {
@@ -44,12 +46,12 @@ main {
     color: #3d3d3d;
 }
 
-.contacts__list,
 .skills__list,
 .languages__list,
 .experience__list,
-.education__list {
-    padding-left: 15px;
+.education__list,
+.my-projects__list {
+    padding-left: 2rem;
 }
 
 /* Main info */
@@ -97,12 +99,21 @@ main {
     color: #3d3d3d;
 }
 
+.about__content {
+    padding-left: 1rem;
+}
+
 /* CONTACTS */
+
+.contacts__list {
+    padding-left: 1rem;
+}
 
 .contacts__item {
     display: flex;
     align-items: center;
     gap: .5rem;
+    list-style-type: none;
 }
 
 .contacts__item span {
@@ -114,7 +125,12 @@ main {
     width: 1rem;
 }
 
+/* EXPERIENCE */
+
+
+
 /* EDUCATION */ 
+
 
 .experience__list {
     display: flex;
